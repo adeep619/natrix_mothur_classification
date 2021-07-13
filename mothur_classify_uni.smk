@@ -18,5 +18,5 @@ rule mothur_classify_silva:
             config['threads']
         shell:
             """
-                         mothur "#classify.seqs(fasta={input[0]}, reference={params.reference}, taxonomy={params.taxonomy}, method={params.method}, processors={threads}, search={params.search}" ; # to run mothur command use # in front of every function name
+                         mothur "#classify.seqs(fasta={input[0]}, reference={params.reference}, taxonomy={params.taxonomy}, method={params.method}, processors={threads}, search={params.search}, output=simple)" ; # to run mothur command use # in front of every function name
             """
