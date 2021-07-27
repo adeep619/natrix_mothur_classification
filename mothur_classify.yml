@@ -1,0 +1,14 @@
+pr2_db_version: '4.14.0'
+silva_db_version: '138.1'
+database: '/mnt/xio/botany/mothur/final/database'
+scripts: '/mnt/xio/botany/mothur/final/scripts/'
+# mothur parameter
+search: 'kmer'
+method: 'wang'
+silva_ref: '/mnt/xio/botany/mothur/final/database/silva_db.138.1.tax'
+silva_tax: ' /mnt/xio/botany/mothur/final/database/silva_db.138.1.fasta'
+pr2_ref: '/mnt/xio/botany/mothur/final/database/pr2db.4.14.0.fasta'
+pr2_tax:  '/mnt/xio/botany/mothur/final/database/pr2db.4.14.0.tax' 
+threads: 20
+results: '/mnt/xio/botany/mothur/final/results'
+input: '/mnt/xio/botany/mothur/final/input'
